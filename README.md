@@ -32,14 +32,12 @@ The project is hardware-agnostic but was designed with common, inexpensive compo
 - Microcontroller: `ESP32` or `ESP8266` (or equivalent)
 - Relay modules (for lights, fans, curtains)
 - Servo / motor driver (for curtains)
-- Electronic/solenoid door lock or smart lock mechanism
-- Soil moisture sensor
-- Water pump for plant irrigation
+- Electronic/Voice controll door lock or smart lock mechanism
 - Power supplies and wiring as required for your devices
 
 ## Software Requirements
 
-- Firmware for your microcontroller (PlatformIO, Arduino, or ESP-IDF)
+- Firmware for your microcontroller(sinric pro, Arduino IDE , google home)
 - Optional voice integration: Google Assistant / Amazon Alexa / offline speech-to-text
 - MQTT broker (e.g., Mosquitto) for device messaging (optional but recommended)
 - Node-RED or a lightweight backend for orchestration (optional)
